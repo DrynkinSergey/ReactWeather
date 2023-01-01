@@ -1,0 +1,30 @@
+@import '../../../../styles/variables.scss';
+
+.thisDay {
+    padding: 20px;
+    box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+    border-radius: 20px;
+    width: 400px;
+
+    .topBlock {
+        .temperature {
+            font-weight: 500;
+            font-size: 96px;
+            line-height: 117px;
+            color: #4793FF;
+        }
+
+        .currentDay {
+            color:$light-color;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 49px;
+        }
+    }
+
+    .bottomBlock {
+        font-size: 25px;
+        line-height: 30px;
+        color: $base-color;
+    }
+}
